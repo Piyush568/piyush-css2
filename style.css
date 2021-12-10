@@ -1,0 +1,43 @@
+#navbar {
+    background-color: black;
+    display: flex;
+}
+
+.navitems {
+    display: inline;
+    font-size: 24px;
+    margin: 0px 10px;
+}
+
+.navitems:hover {
+   background-color: red;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#dropdownContent {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+}
+
+#dropdownContent a {
+    display: block;
+    color: black;
+    font-size: 16px;
+    width: 100px;
+    background-color: yellow;
+}
+
+#dropdown:hover #dropdownContent{
+    display: block;
+}
+
+#dropdownContent a:hover {
+    background-color: blue;
+}
+
